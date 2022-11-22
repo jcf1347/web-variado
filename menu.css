@@ -1,0 +1,63 @@
+body{
+    background-color: background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,18,0.896796218487395) 35%, rgba(0,212,255,1) 100%);;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*codigo del primer nivel del menu */
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+nav li{
+    line-height: 3rem;
+    position: relative;
+}
+
+nav li ul{
+position: absolute;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4s;
+}
+
+nav a:hover {
+background: rgba(0,0,0,.5);
+
+}
+
+nav ul ul ul {
+    display: none;
+}
+
+nav > ul {
+    background:background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,18,0.896796218487395) 35%, rgba(0,212,255,1) 100%);;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+nav > ul > li {
+float: left;
+}
+
+/*2do nivel del menu*/
+nav li li{
+    background:#222;
+} 
+ nav > ul >li >ul{
+    top: 100%;
+ }
+/* tercer nivel*/
+
+
+
+

@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow:hidden;
+}
+
+.estilo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*header  */
+
+header{
+    width: 100%;
+    heigth: 600px;
+    background: #bc4e9c; /* fallback for old browsers */
+    background: -webkit-linearlinear-gradient(to right, #f80759, #e94057), url(/..img/img6.jpg);
+    background: linear-gradient(to right, #f80759, #e94057), url(/..img/img6.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+
+}
+
+nav{
+    text-align:right;
+    padding: 30px 50px 0 0;
+
+}
+    nav > a{
+        olor: #fff;
+        font weight: 300;
+        text-decoration: none;
+        margin-right:10px;
+    } 
+}
